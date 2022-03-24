@@ -30,7 +30,7 @@ for cnt in contours:
         circle_area = math.pi * circle_radius**2
         print("Площадь куруга:", circle_area)
         cv2.circle(drawing, (int(circle_x), int(circle_y)), int(circle_radius), (255, 255, 0), 2)
-
-
+        
+        
 cv2.imshow("window", drawing)
 cv2.waitKey(0)
